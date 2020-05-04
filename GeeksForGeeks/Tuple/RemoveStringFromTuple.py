@@ -21,5 +21,6 @@ def removeStringFromTupleOfList2(l):
     print("Solution 1:",l)
 
 lis = [(1, 'Paras'), (2, 'Jain'), ('GFG', 3), (4, 'Cyware')]
+print("Input :",lis)
 removeStringFromTupleOfList1(lis)
 removeStringFromTupleOfList2(lis)
