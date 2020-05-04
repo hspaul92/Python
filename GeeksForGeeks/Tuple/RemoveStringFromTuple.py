@@ -2,7 +2,6 @@
 # Remove all strings from a list of tuples
 # Input : [(1, 'Paras'), (2, 'Jain'), (3, 'GFG'), (4, 'Cyware')]
 # Output :   [(1), (2), (3), (4)]
-
 # Input : [('string', 'Geeks'), (2, 225), (3, '111')]
 # Output : [(), (2, 225), (3,)]
 
