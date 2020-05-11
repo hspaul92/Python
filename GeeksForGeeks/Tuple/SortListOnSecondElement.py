@@ -30,7 +30,7 @@ def sortListOnSecondElement3(l):
     l.sort(key=lambda x: x[1], reverse=True)
     print("Using Solution3:Desc Sorted :",l)
 
-# Solution:3 Using sorted() with itemgetter() function
+# Solution:4 Using sorted() with itemgetter() function
 def sortListOnSecondElement4(l):
     from operator import itemgetter
     l.sort(key=itemgetter(1))
