@@ -13,13 +13,13 @@ def removeStringFromTupleOfList1(l):
 # Solution:2  Using filter with lambda function in  list comprehension
 def removeStringFromTupleOfList2(l):
     l = [tuple(filter(lambda x: not isinstance(x,str) ,x )) for x in l]
-    print("Solution 1:",l)
+    print("Solution 7:",l)
 
 def removeStringFromTupleOfList2(l):
     l = [tuple(filter(lambda x: not isinstance(x,str) ,x )) for x in l]
-    print("Solution 1:",l)
+    print("Solution 2:",l)
 
-lis = [(1, 'Paras'), (2, 'Jain'), ('GFG', 3), (4, 'Cyware')]
+lis = [(1, 'Paras'), (2, 'Jain'), ('GFG', 3), (4, 'Cyware','gy',9)]
 print("Input :",lis)
 removeStringFromTupleOfList1(lis)
 removeStringFromTupleOfList2(lis)
