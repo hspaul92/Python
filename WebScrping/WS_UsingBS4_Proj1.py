@@ -1,12 +1,11 @@
 # Tribute to : Corey M Schafer
-# This is developed only for learning purpose .
 #
 import requests
 from bs4 import BeautifulSoup
 import csv
 
 # Csv Page Layout
-csv_file =open('scrap_data_CoreySchafer_Page.csv','w',newline='')
+csv_file =open('scrap_data_CoreySchafer_Page102.csv','w',newline='')
 csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['HeadLine','Published On','Author','Content','YouTube','Category','Tags','Page No','Page Link'])
 
