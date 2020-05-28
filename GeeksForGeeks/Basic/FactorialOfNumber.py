@@ -36,8 +36,8 @@ def factOfNumber3(n):
 
 
 # Driver Code
-number = int(input("Enter A Non Negetive Number:"))
+number = int(input("Enter A Non Negative Number:"))
 print("Using Solution1: Factorial of {} is {}".format(number, factOfNumber1(number)))
 print("Using Solution2: Factorial of {} is {}".format(number, factOfNumber2(number)))
-print("Using Solution1: Factorial of {} is {}".format(number, factOfNumber3(number)))
+print("Using Solution3: Factorial of {} is {}".format(number, factOfNumber3(number)))
 
